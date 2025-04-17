@@ -22,7 +22,7 @@ function ContactSection() {
                     <div className="space-y-4">
                         <input type="text" id="name" placeholder="Votre nom" className="w-full p-3 bg-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500" />
                         <input type="email" id="email" placeholder="Votre email" className="w-full p-3 bg-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500" />
-                        <textarea id="message" placeholder="您的消息" rows="5" className="w-full p-3 bg-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500"></textarea>
+                        <textarea id="message" placeholder="Votre message" rows="5" className="w-full p-3 bg-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500"></textarea>
                         <button onClick={sendMessage} className="w-full bg-yellow-500 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-400 transition">Envoyer</button>
                     </div>
                 </div>
