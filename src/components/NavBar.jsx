@@ -4,7 +4,7 @@ function NavBar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <nav className="bg-black bg-opacity-80 fixed w-full z-10">
+        <nav className="bg-black bg-opacity-80 fixed w-full z-[100]">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16">
                     <div className="flex items-center">
