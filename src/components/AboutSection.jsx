@@ -10,19 +10,19 @@ function AboutSection() {
                 
                 {/* Section des vidéos */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
-                    <div className="relative w-full aspect-video">
+                    <div className="relative w-full aspect-video bg-black">
                         <video
                             controls
-                            className="w-full h-full object-cover rounded-lg"
+                            className="w-full h-full object-contain rounded-lg"
                         >
                             <source src="/videos/ange1.mp4" type="video/mp4" />
                             Votre navigateur ne prend pas en charge la lecture de vidéos.
                         </video>
                     </div>
-                    <div className="relative w-full aspect-video">
+                    <div className="relative w-full aspect-video bg-black">
                         <video
                             controls
-                            className="w-full h-full object-cover rounded-lg"
+                            className="w-full h-full object-contain rounded-lg"
                         >
                             <source src="/videos/ange2.mp4" type="video/mp4" />
                             Votre navigateur ne prend pas en charge la lecture de vidéos.
