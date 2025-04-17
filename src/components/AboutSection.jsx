@@ -24,7 +24,7 @@ function AboutSection() {
                             controls
                             className="w-full h-full object-contain rounded-lg"
                         >
-                            <source src="/videos/ange2.mp4" type="video/mp4" />
+                            <source src="/videos/ange3.mp4" type="video/mp4" />
                             Votre navigateur ne prend pas en charge la lecture de vidéos.
                         </video>
                     </div>
