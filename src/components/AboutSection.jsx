@@ -9,6 +9,7 @@ function AboutSection() {
                 </div>
                 
                 {/* Section des vidéos */}
+                <h3 className="text-3xl font-bold text-center mb-8">Ange dans les médias</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
                     <div className="relative w-full aspect-video bg-black">
                         <video
@@ -24,7 +25,7 @@ function AboutSection() {
                             controls
                             className="w-full h-full object-contain rounded-lg"
                         >
-                            <source src="/videos/ange3.mp4" type="video/mp4" />
+                            <source src="/videos/ange2.mp4" type="video/mp4" />
                             Votre navigateur ne prend pas en charge la lecture de vidéos.
                         </video>
                     </div>
